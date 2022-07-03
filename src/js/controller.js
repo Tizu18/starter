@@ -136,7 +136,6 @@ const init = function () {
   searchView.addSearchHandler(constrolSearchResults);
   paginationView.addEventClick(controlPagination);
   addRecipeView.addEvenetUpload(controlAddRecipe);
-  console.log('Welcome!');
   newFeature();
 };
 init();
