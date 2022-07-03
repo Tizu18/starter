@@ -124,10 +124,6 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
-const newFeature = function () {
-  console.log('Begi new feature');
-};
-
 const init = function () {
   bookmarksView.addBookmarkHandler(controlBookmark);
   recipeView.addHandlerRender(controlRecipes);
@@ -136,7 +132,6 @@ const init = function () {
   searchView.addSearchHandler(constrolSearchResults);
   paginationView.addEventClick(controlPagination);
   addRecipeView.addEvenetUpload(controlAddRecipe);
-  newFeature();
 };
 init();
 
